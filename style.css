@@ -29,3 +29,7 @@ header{
 	list-style: none;
 	margin: 0 5px;
 }
+
+#right ul li a:hover{
+	color: red;
+}
