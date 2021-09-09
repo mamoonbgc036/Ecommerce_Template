@@ -9,6 +9,8 @@ header{
 	height: 45px;
 }
 
+/*TOP*/
+
 #Top{
 	display: flex;
 	width: 80%;
@@ -32,4 +34,37 @@ header{
 
 #right ul li a:hover{
 	color: red;
+}
+
+/*MIDDLE*/
+
+#middle{
+	display: flex;
+}
+
+#rights ul{
+	display: flex;
+}
+
+#middle {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#rights ul {
+    display: flex;
+}
+
+#rights ul li{
+	list-style: none;
+	margin: 0 10px;
+}
+
+
+.fa-cart-plus, .fa-heart{
+	padding: 8px;
+	border: 1px solid black;
 }
