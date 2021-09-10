@@ -67,4 +67,5 @@ header{
 .fa-cart-plus, .fa-heart{
 	padding: 8px;
 	border: 1px solid black;
+	border-radius: 50%;
 }
