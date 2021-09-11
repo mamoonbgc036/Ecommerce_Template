@@ -68,8 +68,60 @@ header{
 	background: #F4F4F4;
 	padding: 10px;
 	border-radius: 50%;
+	cursor: pointer;
+}
+
+#search{
+	    width: 215px;
+    position: relative;
 }
 
 #search input{
-	height: 32px;
+	    height: 36px;
+    position: absolute;
+    right: 0px;
+    width: 16%;
+    transition: 0.5s;
+    border-radius: 16px 19px 19px 16px;
 }
+
+#search i{
+	    position: absolute;
+    /*z-index: 9;*/
+    right: 0;
+}
+
+#search input:hover{
+	width: 100%;
+}
+
+#test:hover input{
+	width: 100%;
+}
+
+#test:hover i{
+	background: red;
+	color: #fff;
+}
+
+.fa-cart-plus:hover, .fa-heart:hover{
+	background: red;
+	color: #fff;
+}
+
+#row{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+#cart{
+	position: relative;
+}
+
+#row img{
+	width: 85px;
+}
+
