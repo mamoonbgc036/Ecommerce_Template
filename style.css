@@ -125,3 +125,17 @@ header{
 	width: 85px;
 }
 
+.cartDiv{
+	background : #ececec;
+	width : 30%;
+	position : fixed;
+	right : 0;
+	top : 0;
+	z-index : 9;
+	padding : 40px;
+	height: 100vh;
+	overflow: scroll;
+	transition: all .3s linear;
+	transform : translateX(100%);
+}
+
