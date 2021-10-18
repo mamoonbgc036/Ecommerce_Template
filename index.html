@@ -44,7 +44,7 @@
 							<i class="fas fa-search"></i>
 						</div>
 					</li>
-					<li id="cart"><i class="fas fa-cart-plus"></i><span>1</span></li>
+					<li id="cart"><i class="fas fa-cart-plus"></i><span id="num"></span></li>
 					<li><i class="fas fa-heart"></i></li>
 				</ul>
 			</div>
@@ -64,19 +64,53 @@
 					<button id="details">Details</button>
 				</div>
 			</div>
+			<div id="02" class="mainCart">
+				<div id="details">
+					<img src="image/products/item-6.jpg">
+					<p id="itemName">Jeans</p>
+					<h4>Carefoure</h4>
+					<p>Tk. <span id="price">550</span></p>
+				</div>
+				<div id="btn">
+					<button class="add_to_cart">Add To Cart</button>
+					<button id="details">Details</button>
+				</div>
+			</div>
 		</div>
+		<div id="shopCart">
+		<h3 id="close">&times</h3>
+		<div id="cartTop">
+			<h3>Your Cart</h3>
+		</div>
+		<div id="append">
+			<!-- <div id="mainappend">
+				<div id="cartMiddle">
+					<div id="imageNamePrice">
+						<div id="cartImage">
+							<img src="image/apple.png">
+						</div>
+						<div id="namePrice">
+							<p>Apple</p>
+							<h3> $ 100 </h3>
+							<button>Remove</button>
+						</div>
+					</div>
+					<div id="fontAwesome">
+						<i class="fas fa-chevron-up"></i>
+						<p>2</p>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+				</div>
+				<p id="total">Cart Total : $ <span>100</span></p>
+			</div> -->
+		</div>
+		<div id="cartBottom">
+			<button>Clear Cart</button>
+			<button>Proceed to checkout</button>
+		</div>
+	</div>
 	</main>
-	<div id="01" class="mainCart">
-			<div id="top">
-				<img src="image/potato.png">
-				<p id="itemName">Potato</p>
-				<p>Kazi Farm</p>
-				<p> Tk.<span id="price">120/kg</span></p>
-			</div>
-			<div id="btn">
-				<button class="add_to_cart">Add to Cart</button>
-				<button id="details">Details</button>
-			</div>
-		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

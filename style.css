@@ -141,3 +141,42 @@
 	text-align: center;
 }
 
+
+/*SHOPPING CART*/
+
+	#cartImage img{
+			width: 80px;
+		}
+
+		#close{
+			display: inline-block;
+			cursor: pointer;
+		}
+
+		#shopCart{
+			background: #F1F3F4;
+			width: 40%;
+			position: fixed;
+			top: 0;
+			right: 0;
+			height: 100%;
+			transition: 0.5s;
+			transform: translateX(100%);
+		}
+		#total,#cartTop,#cartMiddle,#cartBottom{
+			text-align: center;
+			margin: 8px;
+		}
+		#cartMiddle, #imageNamePrice{
+			display: flex;
+		}
+
+		#cartMiddle{
+			justify-content: space-evenly;
+		}
+
+		#cartIcon{
+			display: inline-block;
+			cursor: pointer;
+		}
+
