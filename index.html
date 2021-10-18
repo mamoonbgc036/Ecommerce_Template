@@ -8,26 +8,28 @@
 </head>
 <body>
 	<header>
-		<div id="Top">
-			<div id="left">
-				<i class="fas fa-phone-square"></i>
-				<span>01814418723</span>
-			</div>
-			<div id="right">
-				<ul>
-					<li><a href="">
-						<i class="fas fa-sign-in-alt"></i>
-						<span>Compare</span>
-					</a></li>
-					<li><a href="">
-						<i class="fas fa-user"></i>
-						<span>Sign In</span>
-					</a></li>
-					<li id="register"><a href="">
-						<i class="fas fa-user-plus"></i>
-						<span>Register</span>
-					</a></li>
-				</ul>
+		<div id="fullwith">
+			<div id="Top">
+				<div id="left">
+					<i class="fas fa-phone-square"></i>
+					<span>01814418723</span>
+				</div>
+				<div id="right">
+					<ul>
+						<li><a href="">
+							<i class="fas fa-sign-in-alt"></i>
+							<span>Compare</span>
+						</a></li>
+						<li><a href="">
+							<i class="fas fa-user"></i>
+							<span>Sign In</span>
+						</a></li>
+						<li id="register"><a href="">
+							<i class="fas fa-user-plus"></i>
+							<span>Register</span>
+						</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div id="middle">
@@ -42,7 +44,7 @@
 							<i class="fas fa-search"></i>
 						</div>
 					</li>
-					<li id="cart"><i class="fas fa-cart-plus"></i></li>
+					<li id="cart"><i class="fas fa-cart-plus"></i><span>1</span></li>
 					<li><i class="fas fa-heart"></i></li>
 				</ul>
 			</div>
@@ -50,19 +52,31 @@
 	</header>
 	<main>
 		<div id="container">
-			<div id="cart">
+			<div id="01" class="mainCart">
 				<div id="details">
 					<img src="image/products/item-5.jpg">
-					<p>T-Shirt</p>
+					<p id="itemName">T-Shirt</p>
 					<h4>Carefoure</h4>
-					<p>Price: Tk.120</p>
+					<p>Tk. <span id="price">120</span></p>
 				</div>
 				<div id="btn">
-					<button>Add To Cart</button>
-					<button>Details</button>
+					<button class="add_to_cart">Add To Cart</button>
+					<button id="details">Details</button>
 				</div>
 			</div>
 		</div>
 	</main>
+	<div id="01" class="mainCart">
+			<div id="top">
+				<img src="image/potato.png">
+				<p id="itemName">Potato</p>
+				<p>Kazi Farm</p>
+				<p> Tk.<span id="price">120/kg</span></p>
+			</div>
+			<div id="btn">
+				<button class="add_to_cart">Add to Cart</button>
+				<button id="details">Details</button>
+			</div>
+		</div>
 </body>
 </html>
