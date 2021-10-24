@@ -181,3 +181,11 @@
 			cursor: pointer;
 		}
 
+		#details p,h4{
+			background: yellow;
+		}
+
+		#btn{
+			background: yellow;
+		}
+
